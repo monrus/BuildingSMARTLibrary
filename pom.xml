@@ -9,26 +9,25 @@
 	</properties>
 	<description>Java implementation for the BuildingSMART standards IFC2x3TC1 and IFC4</description>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
-				<directory>ifcnamespaces</directory>
+				<directory>BuildingSMARTLibrary/ifcnamespaces</directory>
 			</resource>
 			<resource>
 				<targetPath>plugin</targetPath>
-				<directory>plugin</directory>
+				<directory>BuildingSMARTLibrary/src/plugin</directory>
 			</resource>
 			<resource>
 				<targetPath>schema</targetPath>
-				<directory>schema</directory>
+				<directory>BuildingSMARTLibrarysrc/schema</directory>
 			</resource>
 			<resource>
 				<targetPath>lib</targetPath>
-				<directory>lib</directory>
+				<directory>BuildingSMARTLibrary/src/lib</directory>
 			</resource>
 			<resource>
 				<targetPath>schema</targetPath>
-				<directory>src/schema</directory>
+				<directory>BuildingSMARTLibrary/src/schema</directory>
 			</resource>
 		</resources>
 		<plugins>
@@ -128,7 +127,7 @@
 	</distributionManagement>
 	<dependencies>
 		<dependency>
-			<groupId>org.antlr</groupId>
+			<groupId>org.antlr</groupId>	
 			<artifactId>antlr-complete</artifactId>
 			<version>3.5.2</version>
 		</dependency>
