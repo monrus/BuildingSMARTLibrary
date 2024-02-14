@@ -9,21 +9,10 @@
 	</properties>
 	<description>Java implementation for the BuildingSMART standards IFC2x3TC1 and IFC4</description>
 	<build>
+		<sourceDirectory>BuildingSMARTLibrary/src</sourceDirectory>
 		<resources>
 			<resource>
 				<directory>BuildingSMARTLibrary/ifcnamespaces</directory>
-			</resource>
-			<resource>
-				<targetPath>plugin</targetPath>
-				<directory>BuildingSMARTLibrary/src/plugin</directory>
-			</resource>
-			<resource>
-				<targetPath>schema</targetPath>
-				<directory>BuildingSMARTLibrarysrc/schema</directory>
-			</resource>
-			<resource>
-				<targetPath>lib</targetPath>
-				<directory>BuildingSMARTLibrary/src/lib</directory>
 			</resource>
 			<resource>
 				<targetPath>schema</targetPath>
