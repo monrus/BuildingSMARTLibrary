@@ -2,33 +2,21 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.opensourcebim</groupId>
 	<artifactId>buildingsmartlibrary</artifactId>
-	<version>1.0.14-SNAPSHOT</version>
+	<version>1.0.15-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<description>Java implementation for the BuildingSMART standards IFC2x3TC1 and IFC4</description>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>BuildingSMARTLibrary/src</sourceDirectory>
 		<resources>
 			<resource>
-				<directory>ifcnamespaces</directory>
-			</resource>
-			<resource>
-				<targetPath>plugin</targetPath>
-				<directory>plugin</directory>
+				<directory>BuildingSMARTLibrary/ifcnamespaces</directory>
 			</resource>
 			<resource>
 				<targetPath>schema</targetPath>
-				<directory>schema</directory>
-			</resource>
-			<resource>
-				<targetPath>lib</targetPath>
-				<directory>lib</directory>
-			</resource>
-			<resource>
-				<targetPath>schema</targetPath>
-				<directory>src/schema</directory>
+				<directory>BuildingSMARTLibrary/src/schema</directory>
 			</resource>
 		</resources>
 		<plugins>
