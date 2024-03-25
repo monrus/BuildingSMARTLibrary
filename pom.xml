@@ -116,7 +116,7 @@
 	</distributionManagement>
 	<dependencies>
 		<dependency>
-			<groupId>org.antlr</groupId>	
+			<groupId>org.antlr</groupId>
 			<artifactId>antlr-complete</artifactId>
 			<version>3.5.2</version>
 		</dependency>
